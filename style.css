@@ -1,4 +1,8 @@
-
+body {
+	font-family: arial; sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+}
 
 nav {
 position: absolute;
@@ -9,47 +13,63 @@ border-bottom: 1px solid black;
 border-top: 1px solid black;
 height: 30px;
 width: 100%;
+margin: auto;
 }
 
 #header {
 	display:flex;
 	justify-content: flex-end;
-	align-items: space-around;
 	list-style: none;
-	margin-bottom: auto;
-	margin-top: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	font-size:13px;
 	margin-right: 10px;
-
+	padding: 5px;
 }
 
 #header li {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 10px;
+	margin-left: 10px;	
+	border: 3px solid black;
 	
 }
 
 #logouser {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: -6px;
 	background-image: url("user.jpg");
-	border-radius: 20%;
+	background-attachment: scroll;
+	background-position-x: 32px;
+	background-position-y: 0px; 
+	border-radius: 15px;
 }
 
 
 #logocarre {
+	height: 25px;
+	width: 25px;
+	position: relative;
+	top: -6px;
 	background-image: url("logos.png");
 	background-position: -156px -38px;
-background-position-x: -132px;
-background-position-y: -38px;
-background-size: 528px 68px;
-
+	background-position-x: -132px;
+	background-position-y: -38px;
 }
 
 #logocloche {
+	height: 18px;
+	width: 18px;
+	position: relative;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.85);
 	background-image: url("logos.png");
 	background-position: -194px -21px;
-background-position-x: -194px;
-background-position-y: -21px;
-background-size: 528px 68px;
+	background-position-x: -195px;
+	background-position-y: -21px;
+	border-radius: 15px;
+
 }
 
 
@@ -65,6 +85,11 @@ background-size: 528px 68px;
 }
 
 
-a:hoover, a:activated {
-	font-style: none;
+a:activated, a:visited {
+	text-decoration: : none;
+	color: rgb(255, 255, 255);
+}
+
+a:hoover {
+	text-decoration: underline;
 }
