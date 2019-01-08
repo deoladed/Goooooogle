@@ -1,6 +1,5 @@
 body {
 	font-family: arial; sans-serif;
-
 	font-size: 12px;
 }
 
@@ -17,7 +16,7 @@ ul {
 	justify-content: flex-end;
 	list-style: none;
 	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-top: 14px;
 	font-size:13px;
 	margin-right: 10px;
 	padding: 5px;
@@ -40,8 +39,7 @@ ul {
 	top: -6px;
 	background-image: url("user.jpg");
 	background-attachment: scroll;
-	background-position-x: 32px;
-	background-position-y: 0px; 
+	background-position: 32px 0;
 	border-radius: 15px;
 }
 
@@ -52,15 +50,7 @@ ul {
 	position: relative;
 	top: -6px;
 	background-image: url("logos.png");
-	background-position: -156px -38px;
-	background-position-x: -132px;
-	background-position-y: -38px;
-	
-}
-
-#logocarre a, #logouser a, #logocloche a {
-		display: block;
-		opacity: 0;
+	background-position: -132px -38px;
 }
 
 #logocloche {
@@ -70,11 +60,13 @@ ul {
 	top: 0px;
 	background-color: rgba(0, 0, 0, 0.85);
 	background-image: url("logos.png");
-	background-position: -194px -21px;
-	background-position-x: -195px;
-	background-position-y: -21px;
+	background-position: -195px -21px;
 	border-radius: 15px;
+}
 
+#logocarre a, #logouser a, #logocloche a {
+		display: block;
+		opacity: 0;
 }
 
 
@@ -83,7 +75,7 @@ ul {
 #ppale {
 	position: absolute;
 	height: 80%;
-	width: 100%;
+	width: 99%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -118,7 +110,7 @@ width: 45%;
 .button
 {
 	display: block;
-	width: 154px;
+	width: 140px;
 	height: 36px;
 	margin: 11px 4px;
 	padding: 0 16px;
