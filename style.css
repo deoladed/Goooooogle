@@ -5,12 +5,8 @@ body {
 }
 
 nav {
-position: absolute;
-
 top:15px;
 right:0;
-border-bottom: 1px solid black;
-border-top: 1px solid black;
 height: 30px;
 width: 100%;
 margin: auto;
@@ -30,7 +26,6 @@ margin: auto;
 #header li {
 	margin-right: 10px;
 	margin-left: 10px;	
-	border: 3px solid black;
 	
 }
 
@@ -84,12 +79,11 @@ margin: auto;
 	align-items: center;
 }
 
-
-a:activated, a:visited {
-	text-decoration: : none;
-	color: rgb(255, 255, 255);
+a {
+	color: black;
+	text-decoration: none;
 }
 
-a:hoover {
+a:hover {
 	text-decoration: underline;
 }
