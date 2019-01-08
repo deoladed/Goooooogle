@@ -1,7 +1,70 @@
-#logo {
-	display:flex;
+
+
+nav {
+position: absolute;
+
+top:15px;
+right:0;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+height: 30px;
+width: 100%;
 }
 
-.logo {
-	margin:auto;
+#header {
+	display:flex;
+	justify-content: flex-end;
+	align-items: space-around;
+	list-style: none;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-size:13px;
+	margin-right: 10px;
+
+}
+
+#header li {
+	margin-right: 5px;
+	margin-left: 5px;
+	
+}
+
+#logouser {
+	background-image: url("user.jpg");
+	border-radius: 20%;
+}
+
+
+#logocarre {
+	background-image: url("logos.png");
+	background-position: -156px -38px;
+background-position-x: -132px;
+background-position-y: -38px;
+background-size: 528px 68px;
+
+}
+
+#logocloche {
+	background-image: url("logos.png");
+	background-position: -194px -21px;
+background-position-x: -194px;
+background-position-y: -21px;
+background-size: 528px 68px;
+}
+
+
+
+
+#ppale {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+a:hoover, a:activated {
+	font-style: none;
 }
